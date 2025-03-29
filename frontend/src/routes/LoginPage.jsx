@@ -13,14 +13,14 @@ const LoginPage = () => {
         <div className={styles.loginPage} >
             <div className={styles.logoContainer}>
                 <img src={logo} className={styles.logo} />
-                <Title>LOGIN</Title>
+                <Title>Iniciar Sesión</Title>
             </div>
             <Input type={'text'} name={'e-mail'}/>
             <Input type={'password'} name={'password'} />
-            <BigButton onClick={() => navigate('home')}>Login</BigButton>
+            <BigButton onClick={() => navigate('/home')}>Iniciar sesión</BigButton>
             <div className={styles.signUpContainer}>
-                Don't have an account?
-                <Link to={'/signup'}>SignUp Here</Link>
+                ¿No tienes cuenta?
+                <Link to={'/signup'}>Registrate aquí</Link>
             </div>
         </div>
     );

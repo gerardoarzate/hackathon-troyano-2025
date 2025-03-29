@@ -1,7 +1,7 @@
+import Switch from './Switch';
 import styles from './DeviceCard.module.css';
 import deviceIcon from '../assets/mdi--tap.svg';
 import batteryIcon from '../assets/mdi--battery.svg';
-import switchIcon from '../assets/ion--switch.svg';
 
 const DeviceCard = ({ name, consumption, powerPercentage }) => {
     return (
@@ -18,7 +18,7 @@ const DeviceCard = ({ name, consumption, powerPercentage }) => {
                 </div>
             </div>
             <div className={styles.switchContainer}>
-                <img src={switchIcon} className={styles.switch} />
+                <Switch onEnable={()=>console.log('enabled')} onDisable={()=>console.log('disabled')}/>
             </div>
         </div>
     );

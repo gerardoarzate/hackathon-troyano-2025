@@ -7,6 +7,7 @@ import HomePage from './routes/HomePage.jsx';
 import DevicesPage from './routes/DevicesPage.jsx';
 import ConsumptionPage from './routes/ConsumptionPage.jsx';
 import ProfilePage from './routes/ProfilePage.jsx';
+import SignUpPage from './routes/SignUpPage.jsx';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 		<BrowserRouter>
 			<Routes>
 				<Route index element={<LoginPage />} />
+				<Route path='/signup' element={<SignUpPage />} />
 				<Route element={<RoutesLayout />} >
 					<Route path='/home' element={<HomePage />} />
 					<Route path='/devices' element={<DevicesPage />} />
