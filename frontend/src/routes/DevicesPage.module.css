@@ -1,0 +1,17 @@
+.devicesPage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.devicesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.addButtonContainer {
+    position: absolute;
+    bottom: 32px;
+    right: 16px;
+}
