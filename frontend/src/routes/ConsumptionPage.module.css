@@ -1,0 +1,19 @@
+.consumptionPage {
+    
+}
+
+.cardTitle {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.cardListElement {
+    margin-bottom: 4px;
+    width: 100%;
+    text-align: left;
+}
+
+.cardContainer {
+    margin: auto;
+    width: 90%;
+}
