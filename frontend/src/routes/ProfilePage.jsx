@@ -13,10 +13,10 @@ const ProfilePage = () => {
                 <ProfileItem label={'Apellidos'} value={'Luna Fernández'} />
                 <ProfileItem label={'Correo electrónico'} value={'francisco@gmail.com'} />
             </div>
+            <AlertsButton activeIssues={2} />
             <div className={styles.linkContainer}>
                 <Link to={'/'}>Cerrar sesión</Link>
             </div>
-            <AlertsButton activeIssues={2} />
         </div>
     );
 };
