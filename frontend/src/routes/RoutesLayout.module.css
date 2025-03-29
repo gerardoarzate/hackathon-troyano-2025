@@ -1,0 +1,10 @@
+.routesLayout {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+}
+
+.contentContainer {
+    overflow-x: scroll;
+    padding-bottom: 24px;
+}

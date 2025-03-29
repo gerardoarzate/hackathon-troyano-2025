@@ -1,0 +1,9 @@
+.bigButton {
+    display: block;
+    border-radius: 20px;
+    border: none;
+    width: fit-content;
+    padding: 8px 40px;
+    color: white;
+    background-color: var(--dark-green);
+}

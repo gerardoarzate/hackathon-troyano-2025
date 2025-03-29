@@ -1,0 +1,13 @@
+.profileItem {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    font-weight: lighter;
+}

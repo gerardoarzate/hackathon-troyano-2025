@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+ }
+ 
+ .iconContainer {
+    width: 36px;
+    height: 36px;
+ }
+ 
+ .iconContainer > img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .label {
+     font-size: 12px;
+ }

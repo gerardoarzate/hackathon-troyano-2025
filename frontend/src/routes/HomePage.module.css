@@ -1,0 +1,31 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+}
+
+.meterContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 12px;
+}
+
+.centeredText {
+    margin: 12px auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.cardGridWideRow {
+    height: 80px;
+    grid-column: span 2;
+}

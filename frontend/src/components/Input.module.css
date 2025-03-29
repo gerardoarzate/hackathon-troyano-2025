@@ -1,0 +1,17 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: auto;
+    width: 80%;
+}
+
+.input {
+    display: block;
+    padding: 12px 8px;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    font-size: 18px;
+}
